@@ -1,0 +1,44 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 2rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  .bg-gray {
+    background-color: #c7dae618;
+  }
+
+  .bg-gold {
+    background-color: #e4d554;
+  }
+
+  .bg-grass {
+    background-color: #7abe8b;
+  }
+
+  #img-link {
+    text-decoration: none;
+    border: 0 !important;
+ }
+  .text-medium {
+    font-size: 24;
+  }
+
+  .text-big {
+    font-size: 36;
+  }
+
+  .text-big-bold {
+    font-size: 36;
+    font-weight: 900;
+  }
+
+  .display-6 {
+    font-size: 24
+  }
+
+
