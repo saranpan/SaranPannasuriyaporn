@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+
+    <div class="container-md">
+        <div class="text-center">
+            <div class="row justify-content-center mb-5 border-bottom">
+                
+                <h1 class="text-turtle fw-bolder">
+                    <i class="bi bi-patch-check"></i> 
+                    Certificate
+                </h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-center text-center">
+
+
+            {% for certificate in certificates %}
+                <img src={{ url_for('static', filename = 'certificate/'+certificate) }} style="width: 700;height: 450;" class="img-fluid">
+                <small class='mb-5'>{{certificate}}</small>
+            {% endfor %}
+
+        </div>  
+    </div>
+
+
+{% endblock content %}
+

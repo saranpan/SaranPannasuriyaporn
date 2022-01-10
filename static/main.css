@@ -37,6 +37,10 @@ body {
     font-weight: 900;
   }
 
+  .text-turtle {
+    color: #25793a;
+  }
+
   .display-6 {
     font-size: 24
   }
